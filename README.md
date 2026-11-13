@@ -139,7 +139,7 @@ The label isn't exactly wrong, but **relief** is the more specific emotion here,
 ## Project structure
 
 ```
-├── goemotions_classifier.ipynb   # Full notebook: data, baseline, DistilBERT, evaluation
+├── notebook-goemotionsclassifier.ipynb # Full notebook: data, baseline, DistilBERT, evaluation
 ├── results/
 │   ├── per_class_f1.csv          # Per-emotion F1 for both models
 │   ├── confusion_matrix.png      # DistilBERT confusion matrix (row-normalized)
