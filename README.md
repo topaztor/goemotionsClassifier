@@ -122,7 +122,7 @@ The label isn't exactly wrong, but **relief** is the more specific emotion here,
 
 ## Next steps
 
-- **Multi-label classification:** use all comments and let the model predict several emotions at once, which better fits real comments.
+- **Multi-label classification:** use all comments and let the model predict several emotions at once. My mistake review suggests this would fit the data better, since even "single-label" comments often carry more than one emotion.
 - **Class-weighted loss for DistilBERT:** the baseline's balanced class weights helped it on rare emotions where DistilBERT scored 0, so applying the same idea to DistilBERT is the most promising fix.
 - **Clean or relabel suspicious examples**, especially *realization*, and measure how much scores change.
 - **Try a larger model** (e.g., RoBERTa or DeBERTa) and compare the gain against the baseline.
