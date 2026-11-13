@@ -120,13 +120,6 @@ The label isn't exactly wrong, but **relief** is the more specific emotion here,
 
 ---
 
-## Limitations
-
-- **Single-label only:** I excluded comments with multiple emotions, which are a meaningful part of the dataset. Results don't reflect how the model handles mixed emotions.
-- **Label noise:** my review suggests many labels are questionable, which caps how well any model can score and makes the reported metrics a rough estimate.
-- **Small error sample:** 30 mistakes is enough to spot patterns but not to measure them precisely.
-- **Rare classes:** some emotions have very few test examples, so their individual F1 scores are noisy.
-
 ## Next steps
 
 - **Multi-label classification:** use all comments and let the model predict several emotions at once, which better fits real comments.
@@ -135,20 +128,3 @@ The label isn't exactly wrong, but **relief** is the more specific emotion here,
 - **Try a larger model** (e.g., RoBERTa or DeBERTa) and compare the gain against the baseline.
 
 ---
-
-## Project structure
-
-```
-├── notebook-goemotionsclassifier.ipynb # Full notebook: data, baseline, DistilBERT, evaluation
-├── results/
-│   ├── per_class_f1.csv          # Per-emotion F1 for both models
-│   ├── confusion_matrix.png      # DistilBERT confusion matrix (row-normalized)
-│   └── mistakes_30.csv           # My annotated review of 30 mistakes
-└── README.md
-```
-
-## Reproduce it
-
-Open the notebook in Kaggle or Colab with a **GPU** and **internet** enabled, then run all cells. The dataset downloads automatically from Hugging Face (`google-research-datasets/go_emotions`, `simplified` config). DistilBERT fine-tuning takes about 5–10 minutes on a T4 GPU.
-
-**Built with:** Python, scikit-learn, Hugging Face `transformers` and `datasets`, pandas, matplotlib.
