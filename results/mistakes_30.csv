@@ -1,31 +1,32 @@
-text,true,pred,my_call,notes
-"Funny how some people criticize people for not following those laws, when they don't either.",neutral,amusement,,
-"I totally thought the same thing! I was like, oh honey nooooo!",neutral,realization,,
-Normally drop n roll. In this case I would remove my clothes because I doubt rolling would help.,confusion,neutral,,
-Every other way sounds wrong. SPR for life.,realization,disapproval,,
-I never knew cringing could be so ...cathartic.,embarrassment,fear,,
-Southern Mexico tends to always get fucked in the ass as well,annoyance,anger,,
-[NAME]? Y’all [NAME] are weird AF (and I love it).,neutral,love,,
-No no. totally justified,approval,disapproval,,
-"We've been pretty good for the most part the last 5 years. I mean, [NAME] saying [NAME] betrayed him isn't ideal but could be worse. ",approval,neutral,,
-"Maybe they'll change their mind one day! That sounds good, I'll give it a go some time!",admiration,optimism,,
-Omg I just looked it up and all the places look so beautiful there 😍 also I’m sorry that it’s homophobic,admiration,remorse,,
-I'm going Saints and Chiefs. Although I think the Chiefs-Pats game could go either way,realization,neutral,,
-"Well first, im against government period, and second im conveying this under a layer of satire to make the ideas spread more easily",disapproval,neutral,,
-I’m always weirded out whenever I see him without a beard because in my game I got the longest beard I could,neutral,fear,,
-There is also no dog in the white house. Why? Because dogs can smell an asshole a mile away.,approval,anger,,
-Can't lose if you never stop appealing. Or at least that's what I'm told by your cohorts.,realization,neutral,,
-"They'll investigate themselves and nothing will happen. Detroit police bully everyone. An they wonder why no one likes them, Respects them, Or why people run from them. ",annoyance,neutral,,
-we deserve to lose after that,disappointment,neutral,,
-I’ll join your cause brother!,approval,neutral,,
-"You are stating your opinion as if it were fact. [NAME] has face tattoos and I think they are incredibly sexy, attractive and appealing.",neutral,admiration,,
-Isn't she like a worse version of [NAME]? I always hear from everyone that she is pretty trash.,disgust,annoyance,,
-Yeah this is downright spooky; she's not even using that face mask.,neutral,fear,,
-"Now I know where to do stag party for my friend, finally.",approval,neutral,,
-Does windows xp count as odd or even?,confusion,neutral,,
-Any source on the college split the second time that outlines the stats? Interested to see.,excitement,curiosity,,
-"100% correct. Seriously, listen to [NAME] talking points when she mentions Syria. Matches RT propaganda exactly.",neutral,approval,,
-Yeah I wish they could just finish 9th every year in the conference,optimism,desire,,
-I'm replying just bask in the glow with someone else! Yay!!,approval,neutral,,
-How do you know this?,neutral,curiosity,,
-I've found that carrying 21 chromosome's is the sweet spot,realization,neutral,,
+mistakes_30
+text,TRUE,pred,my_call,notes
+"Funny how some people criticize people for not following those laws, when they don't either.",neutral,amusement,both_wrong,sarcasm
+"I totally thought the same thing! I was like, oh honey nooooo!",neutral,realization,both_wrong,disapproval
+Normally drop n roll. In this case I would remove my clothes because I doubt rolling would help.,confusion,neutral,label_wrong,
+Every other way sounds wrong. SPR for life.,realization,disapproval,label_wrong,
+I never knew cringing could be so ...cathartic.,embarrassment,fear,model_wrong,Also relief
+Southern Mexico tends to always get fucked in the ass as well,annoyance,anger,model_wrong,Took cussing as anger
+[NAME]? Y’all [NAME] are weird AF (and I love it).,neutral,love,label_wrong,More approval t me
+No no. totally justified,approval,disapproval,model_wrong,
+"We've been pretty good for the most part the last 5 years. I mean, [NAME] saying [NAME] betrayed him isn't ideal but could be worse.",approval,neutral,ambiguous,
+"Maybe they'll change their mind one day! That sounds good, I'll give it a go some time!",admiration,optimism,label_wrong,
+Omg I just looked it up and all the places look so beautiful there 😍 also I’m sorry that it’s homophobic,admiration,remorse,ambiguous,
+I'm going Saints and Chiefs. Although I think the Chiefs-Pats game could go either way,realization,neutral,label_wrong,
+"Well first, im against government period, and second im conveying this under a layer of satire to make the ideas spread more easily",disapproval,neutral,model_wrong,
+I’m always weirded out whenever I see him without a beard because in my game I got the longest beard I could,neutral,fear,label_wrong,Maybe fear too strong of word
+There is also no dog in the white house. Why? Because dogs can smell an asshole a mile away.,approval,anger,both_wrong,Im not sure what this is but I know its not these
+Can't lose if you never stop appealing. Or at least that's what I'm told by your cohorts.,realization,neutral,label_wrong,
+"They'll investigate themselves and nothing will happen. Detroit police bully everyone. An they wonder why no one likes them, Respects them, Or why people run from them. ",annoyance,neutral,model_wrong,
+we deserve to lose after that,disappointment,neutral,model_wrong,
+I’ll join your cause brother!,approval,neutral,model_wrong,
+"You are stating your opinion as if it were fact. [NAME] has face tattoos and I think they are incredibly sexy, attractive and appealing.",neutral,admiration,label_wrong,Could also be both wrong. They’re feeling admiration about someone but the text gives more disapproval
+Isn't she like a worse version of [NAME]? I always hear from everyone that she is pretty trash.,disgust,annoyance,ambiguous,Could be both
+Yeah this is downright spooky; she's not even using that face mask.,neutral,fear,label_wrong,
+"Now I know where to do stag party for my friend, finally.",approval,neutral,both_wrong,relief
+Does windows xp count as odd or even?,confusion,neutral,model_wrong,
+Any source on the college split the second time that outlines the stats? Interested to see.,excitement,curiosity,label_wrong,
+"100% correct. Seriously, listen to [NAME] talking points when she mentions Syria. Matches RT propaganda exactly.",neutral,approval,label_wrong,
+Yeah I wish they could just finish 9th every year in the conference,optimism,desire,label_wrong,
+I'm replying just bask in the glow with someone else! Yay!!,approval,neutral,both_wrong,I think more excitement than anything but could be approval
+How do you know this?,neutral,curiosity,label_wrong,
+I've found that carrying 21 chromosome's is the sweet spot,realization,neutral,label_wrong,
